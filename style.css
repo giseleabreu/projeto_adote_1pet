@@ -1,0 +1,44 @@
+body{
+  margin: 0px; /*resetando margin automática*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+  margin: 0px; /*resetando margin automática*/
+  padding: 0px; /*resetando padding automático*/
+  list-style: none; /*resetando estilo de lista automático*/
+}
+
+a{
+  text-decoration: none; /*reset automático*/
+}
+
+.logo-img{
+  padding-top: 7px;
+}
+
+.header-bg{
+  background-color: #54BDB7;
+}
+
+.header{
+  display: flex; /*item ao lado do outro*/
+  justify-content: space-between; /*itens de ponta a ponta*/
+  align-items: center;
+  padding: 20px; /*desgrudar marca e itens-menu*/
+  max-width: 1160px; /*design responsivo*/
+  margin-left: auto; /*responsivo: alinhar ao centro*/
+  margin-right: auto; /*responsivo: alinhar ao centro*/
+}
+
+.header-menu{
+  display: flex; /*item ao lado do outro*/
+  gap: 40px; /*espaço entre itens*/
+}
+
+.header-menu a{
+  display: inline-block; /*o elemento a, é inline, então por padrão quando um item cair abaixo do outro, o padding não vai funcionar bem, por isso é preciso colocar o display inline-block*/
+  padding: 16px 0px; /*aumentar area de contato*/
+  color: #1E1E1E;
+  font-weight: bold;
+}
